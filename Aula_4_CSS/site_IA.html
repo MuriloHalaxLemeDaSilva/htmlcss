@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://lumi.new/lumi.ing/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HQ Mania - Loja de Histórias em Quadrinhos</title>
+    <meta name="description" content="A melhor loja online de HQs do Brasil! Tintim, Asterix, Super-heróis e muito mais. Frete grátis e entrega rápida.">
+    <meta name="keywords" content="HQ, quadrinhos, Tintim, Asterix, super-heróis, Batman, Homem-Aranha, loja online">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🦸 HQ Mania</h1>
+                <p>Sua editora de quadrinhos favorita</p>
+            </div>
+            <nav class="nav-tabs">
+                <a href="#catalogo" class="tab-link active">📚 Catálogo</a>
+                <a href="#forum" class="tab-link">💬 Fórum</a>
+                <a href="#carrinho" class="tab-link">🛒 Carrinho <span class="cart-count">0</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Catálogo Tab -->
+        <section id="catalogo" class="tab-content active">
+            <div class="container">
+                <h2>Catálogo de HQs</h2>
+                
+                <!-- Filtros -->
+                <div class="filters">
+                    <label>
+                        <input type="radio" name="filter" value="all" checked>
+                        <span>Todos</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="tintin">
+                        <span>Tintim</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="asterix">
+                        <span>Asterix</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="heroes">
+                        <span>Super-heróis</span>
+                    </label>
+                </div>
+
+                <!-- Grid de HQs -->
+                <div class="comics-grid">
+                    <!-- Tintim na América -->
+                    <div class="comic-card tintin" data-price="45.90">
+                        <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg" alt="Tintim na América">
+                        <div class="comic-info">
+                            <h3>Tintim na América</h3>
+                            <p class="author">por Hergé</p>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8 (127 reviews)</span>
+                            </div>
+                            <p class="price">R$ 45,90</p>
+                            <p class="sales">892 vendas</p>
+                            
+                            <!-- Botão para ver detalhes -->
+                            <label for="detail-tintin-america" class="btn-details">Ver Detalhes</label>
+                            <button class="btn-cart" onclick="addToCart('Tintim na América', 45.90)">Adicionar ao Carrinho</button>
+                        </div>
+                        
+                        <!-- Modal de detalhes -->
+                        <input type="checkbox" id="detail-tintin-america" class="detail-toggle">
+                        <div class="detail-modal">
+                            <div class="detail-content">
+                                <label for="detail-tintin-america" class="close-btn">×</label>
+                                <h3>Tintim na América</h3>
+                                <div class="detail-grid">
+                                    <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg" alt="Tintim na América">
+                                    <div class="detail-info">
+                                        <p><strong>Autor:</strong> Hergé</p>
+                                        <p><strong>Ano:</strong> 1932</p>
+                                        <p><strong>Páginas:</strong> 62</p>
+                                        <p><strong>Categoria:</strong> Aventura</p>
+                                        <p><strong>Estoque:</strong> 25 unidades</p>
+                                        <p class="description">Tintim viaja para a América em uma emocionante aventura repleta de ação e descobertas.</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Reviews -->
+                                <div class="reviews-section">
+                                    <h4>Reviews dos Clientes</h4>
+                                    <div class="review">
+                                        <div class="review-header">
+                                            <strong>Carlos Silva</strong>
+                                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        </div>
+                                        <p>Excelente HQ! A arte do Hergé é impecável e a história prende do início ao fim. Recomendo para todos os fãs de aventura.</p>
+                                        <small>👍 23 pessoas acharam útil</small>
+                                    </div>
+                                    <div class="review">
+                                        <div class="review-header">
+                                            <strong>Maria Santos</strong>
+                                            <span class="stars">⭐⭐⭐⭐</span>
+                                        </div>
+                                        <p>Muito boa! Tintim sempre entrega aventuras incríveis. A edição está bem cuidada.</p>
+                                        <small>👍 15 pessoas acharam útil</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- O Segredo do Unicórnio -->
+                    <div class="comic-card tintin" data-price="42.50">
+                        <img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg" alt="O Segredo do Unicórnio">
+                        <div class="comic-info">
+                            <h3>O Segredo do Unicórnio</h3>
+                            <p class="author">por Hergé</p>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.9 (203 reviews)</span>
+                            </div>
+                            <p class="price">R$ 42,50</p>
+                            <p class="sales">1.156 vendas</p>
+                            
+                            <label for="detail-unicornio" class="btn-details">Ver Detalhes</label>
+                            <button class="btn-cart" onclick="addToCart('O Segredo do Unicórnio', 42.50)">Adicionar ao Carrinho</button>
+                        </div>
+                        
+                        <input type="checkbox" id="detail-unicornio" class="detail-toggle">
+                        <div class="detail-modal">
+                            <div class="detail-content">
+                                <label for="detail-unicornio" class="close-btn">×</label>
+                                <h3>O Segredo do Unicórnio</h3>
+                                <div class="detail-grid">
+                                    <img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg" alt="O Segredo do Unicórnio">
+                                    <div class="detail-info">
+                                        <p><strong>Autor:</strong> Hergé</p>
+                                        <p><strong>Ano:</strong> 1943</p>
+                                        <p><strong>Páginas:</strong> 62</p>
+                                        <p><strong>Categoria:</strong> Aventura</p>
+                                        <p><strong>Estoque:</strong> 18 unidades</p>
+                                        <p class="description">Tintim descobre o mistério de um antigo navio pirata e seus tesouros perdidos.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reviews-section">
+                                    <h4>Reviews dos Clientes</h4>
+                                    <div class="review">
+                                        <div class="review-header">
+                                            <strong>João Oliveira</strong>
+                                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        </div>
+                                        <p>Uma das melhores aventuras do Tintim! O mistério do Unicórnio é fascinante.</p>
+                                        <small>👍 31 pessoas acharam útil</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Asterix, o Gaulês -->
+                    <div class="comic-card asterix" data-price="38.90">
+                        <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg" alt="Asterix, o Gaulês">
+                        <div class="comic-info">
+                            <h3>Asterix, o Gaulês</h3>
+                            <p class="author">por René Goscinny e Albert Uderzo</p>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.7 (189 reviews)</span>
+                            </div>
+                            <p class="price">R$ 38,90</p>
+                            <p class="sales">743 vendas</p>
+                            
+                            <label for="detail-asterix-gaules" class="btn-details">Ver Detalhes</label>
+                            <button class="btn-cart" onclick="addToCart('Asterix, o Gaulês', 38.90)">Adicionar ao Carrinho</button>
+                        </div>
+                        
+                        <input type="checkbox" id="detail-asterix-gaules" class="detail-toggle">
+                        <div class="detail-modal">
+                            <div class="detail-content">
+                                <label for="detail-asterix-gaules" class="close-btn">×</label>
+                                <h3>Asterix, o Gaulês</h3>
+                                <div class="detail-grid">
+                                    <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg" alt="Asterix, o Gaulês">
+                                    <div class="detail-info">
+                                        <p><strong>Autores:</strong> René Goscinny e Albert Uderzo</p>
+                                        <p><strong>Ano:</strong> 1961</p>
+                                        <p><strong>Páginas:</strong> 48</p>
+                                        <p><strong>Categoria:</strong> Comédia</p>
+                                        <p><strong>Estoque:</strong> 32 unidades</p>
+                                        <p class="description">A primeira aventura do valente guerreiro gaulês Asterix e seu fiel amigo Obelix.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reviews-section">
+                                    <h4>Reviews dos Clientes</h4>
+                                    <div class="review">
+                                        <div class="review-header">
+                                            <strong>Ana Costa</strong>
+                                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        </div>
+                                        <p>Asterix nunca decepciona! Humor inteligente e desenhos fantásticos. Clássico absoluto!</p>
+                                        <small>👍 28 pessoas acharam útil</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Asterix e Cleópatra -->
+                    <div class="comic-card asterix" data-price="41.20">
+                        <img src="https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg" alt="Asterix e Cleópatra">
+                        <div class="comic-info">
+                            <h3>Asterix e Cleópatra</h3>
+                            <p class="author">por René Goscinny e Albert Uderzo</p>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.6 (156 reviews)</span>
+                            </div>
+                            <p class="price">R$ 41,20</p>
+                            <p class="sales">634 vendas</p>
+                            
+                            <label for="detail-asterix-cleopatra" class="btn-details">Ver Detalhes</label>
+                            <button class="btn-cart" onclick="addToCart('Asterix e Cleópatra', 41.20)">Adicionar ao Carrinho</button>
+                        </div>
+                        
+                        <input type="checkbox" id="detail-asterix-cleopatra" class="detail-toggle">
+                        <div class="detail-modal">
+                            <div class="detail-content">
+                                <label for="detail-asterix-cleopatra" class="close-btn">×</label>
+                                <h3>Asterix e Cleópatra</h3>
+                                <div class="detail-grid">
+                                    <img src="https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg" alt="Asterix e Cleópatra">
+                                    <div class="detail-info">
+                                        <p><strong>Autores:</strong> René Goscinny e Albert Uderzo</p>
+                                        <p><strong>Ano:</strong> 1965</p>
+                                        <p><strong>Páginas:</strong> 48</p>
+                                        <p><strong>Categoria:</strong> Comédia</p>
+                                        <p><strong>Estoque:</strong> 21 unidades</p>
+                                        <p class="description">Asterix e Obelix viajam ao Egito para ajudar Cleópatra a construir um palácio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Homem-Aranha: Origem -->
+                    <div class="comic-card heroes" data-price="52.90">
+                        <img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg" alt="Homem-Aranha: Origem">
+                        <div class="comic-info">
+                            <h3>Homem-Aranha: Origem</h3>
+                            <p class="author">por Stan Lee e Steve Ditko</p>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.9 (298 reviews)</span>
+                            </div>
+                            <p class="price">R$ 52,90</p>
+                            <p class="sales">1.423 vendas</p>
+                            
+                            <label for="detail-spiderman" class="btn-details">Ver Detalhes</label>
+                            <button class="btn-cart" onclick="addToCart('Homem-Aranha: Origem', 52.90)">Adicionar ao Carrinho</button>
+                        </div>
+                        
+                        <input type="checkbox" id="detail-spiderman" class="detail-toggle">
+                        <div class="detail-modal">
+                            <div class="detail-content">
+                                <label for="detail-spiderman" class="close-btn">×</label>
+                                <h3>Homem-Aranha: Origem</h3>
+                                <div class="detail-grid">
+                                    <img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg" alt="Homem-Aranha: Origem">
+                                    <div class="detail-info">
+                                        <p><strong>Autores:</strong> Stan Lee e Steve Ditko</p>
+                                        <p><strong>Ano:</strong> 1962</p>
+                                        <p><strong>Páginas:</strong> 96</p>
+                                        <p><strong>Categoria:</strong> Super-heróis</p>
+                                        <p><strong>Estoque:</strong> 15 unidades</p>
+                                        <p class="description">A origem do amigão da vizinhança, Peter Parker e seus poderes aracnídeos.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reviews-section">
+                                    <h4>Reviews dos Clientes</h4>
+                                    <div class="review">
+                                        <div class="review-header">
+                                            <strong>Pedro Almeida</strong>
+                                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        </div>
+                                        <p>A origem do Homem-Aranha é simplesmente perfeita. Stan Lee era um gênio!</p>
+                                        <small>👍 45 pessoas acharam útil</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Batman: Ano Um -->
+                    <div class="comic-card heroes" data-price="58.50">
+                        <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg" alt="Batman: Ano Um">
+                        <div class="comic-info">
+                            <h3>Batman: Ano Um</h3>
+                            <p class="author">por Frank Miller</p>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-text">4.8 (342 reviews)</span>
+                            </div>
+                            <p class="price">R$ 58,50</p>
+                            <p class="sales">1.687 vendas</p>
+                            
+                            <label for="detail-batman" class="btn-details">Ver Detalhes</label>
+                            <button class="btn-cart" onclick="addToCart('Batman: Ano Um', 58.50)">Adicionar ao Carrinho</button>
+                        </div>
+                        
+                        <input type="checkbox" id="detail-batman" class="detail-toggle">
+                        <div class="detail-modal">
+                            <div class="detail-content">
+                                <label for="detail-batman" class="close-btn">×</label>
+                                <h3>Batman: Ano Um</h3>
+                                <div class="detail-grid">
+                                    <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg" alt="Batman: Ano Um">
+                                    <div class="detail-info">
+                                        <p><strong>Autor:</strong> Frank Miller</p>
+                                        <p><strong>Ano:</strong> 1987</p>
+                                        <p><strong>Páginas:</strong> 144</p>
+                                        <p><strong>Categoria:</strong> Super-heróis</p>
+                                        <p><strong>Estoque:</strong> 12 unidades</p>
+                                        <p class="description">A história definitiva dos primeiros anos do Cavaleiro das Trevas em Gotham City.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="reviews-section">
+                                    <h4>Reviews dos Clientes</h4>
+                                    <div class="review">
+                                        <div class="review-header">
+                                            <strong>Lucas Ferreira</strong>
+                                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        </div>
+                                        <p>Frank Miller revolucionou o Batman com esta obra-prima. Essencial para qualquer coleção!</p>
+                                        <small>👍 52 pessoas acharam útil</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fórum Tab -->
+        <section id="forum" class="tab-content">
+            <div class="container">
+                <h2>Fórum de Discussão</h2>
+                
+                <!-- Categorias do Fórum -->
+                <div class="forum-categories">
+                    <label>
+                        <input type="radio" name="forum-filter" value="all" checked>
+                        <span>Todas</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="forum-filter" value="tintin">
+                        <span>Tintim</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="forum-filter" value="asterix">
+                        <span>Asterix</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="forum-filter" value="heroes">
+                        <span>Super-heróis</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="forum-filter" value="geral">
+                        <span>Geral</span>
+                    </label>
+                </div>
+
+                <!-- Posts do Fórum -->
+                <div class="forum-posts">
+                    <!-- Post Pinado -->
+                    <div class="forum-post pinned geral">
+                        <div class="post-header">
+                            <span class="pin-icon">📌</span>
+                            <h3>Asterix vs Tintim: Qual preferem?</h3>
+                            <span class="post-category">Geral</span>
+                        </div>
+                        <p class="post-preview">Duas séries clássicas europeias que marcaram gerações. Qual vocês preferem e por quê?</p>
+                        <div class="post-stats">
+                            <span>👤 FanDeQuadrinhos</span>
+                            <span>❤️ 45 curtidas</span>
+                            <span>💬 32 respostas</span>
+                            <span>👁️ 287 visualizações</span>
+                        </div>
+                        
+                        <!-- Expandir post -->
+                        <input type="checkbox" id="post-1" class="post-toggle">
+                        <label for="post-1" class="expand-btn">Ver discussão completa</label>
+                        <div class="post-content">
+                            <p>Vamos debater as diferenças de estilo, humor e narrativa entre essas duas obras-primas!</p>
+                            <div class="post-actions">
+                                <button class="like-btn">❤️ Curtir</button>
+                                <button class="reply-btn">💬 Responder</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post Tintim -->
+                    <div class="forum-post tintin">
+                        <div class="post-header">
+                            <h3>Qual a melhor aventura do Tintim?</h3>
+                            <span class="post-category">Tintim</span>
+                        </div>
+                        <p class="post-preview">Pessoal, estou começando a ler Tintim agora e queria saber qual vocês consideram a melhor aventura...</p>
+                        <div class="post-stats">
+                            <span>👤 NovoColecionador</span>
+                            <span>❤️ 24 curtidas</span>
+                            <span>💬 18 respostas</span>
+                            <span>👁️ 156 visualizações</span>
+                        </div>
+                        
+                        <input type="checkbox" id="post-2" class="post-toggle">
+                        <label for="post-2" class="expand-btn">Ver discussão completa</label>
+                        <div class="post-content">
+                            <p>Já ouvi falar muito bem de 'O Segredo do Unicórnio', mas queria outras opiniões!</p>
+                            <div class="post-actions">
+                                <button class="like-btn">❤️ Curtir</button>
+                                <button class="reply-btn">💬 Responder</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post Super-heróis -->
+                    <div class="forum-post heroes">
+                        <div class="post-header">
+                            <h3>Lançamentos de Super-heróis em 2025</h3>
+                            <span class="post-category">Super-heróis</span>
+                        </div>
+                        <p class="post-preview">Alguém sabe quais são os próximos lançamentos de HQs de super-heróis para este ano?</p>
+                        <div class="post-stats">
+                            <span>👤 HeroiFan2025</span>
+                            <span>❤️ 31 curtidas</span>
+                            <span>💬 15 respostas</span>
+                            <span>👁️ 198 visualizações</span>
+                        </div>
+                        
+                        <input type="checkbox" id="post-3" class="post-toggle">
+                        <label for="post-3" class="expand-btn">Ver discussão completa</label>
+                        <div class="post-content">
+                            <p>Estou especialmente interessado em novos volumes do Homem-Aranha e Batman.</p>
+                            <div class="post-actions">
+                                <button class="like-btn">❤️ Curtir</button>
+                                <button class="reply-btn">💬 Responder</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post Asterix -->
+                    <div class="forum-post asterix">
+                        <div class="post-header">
+                            <h3>Asterix: Qual o melhor álbum?</h3>
+                            <span class="post-category">Asterix</span>
+                        </div>
+                        <p class="post-preview">Com tantos álbuns incríveis, é difícil escolher o melhor. Meu favorito é 'Asterix e Cleópatra'...</p>
+                        <div class="post-stats">
+                            <span>👤 GaulesLover</span>
+                            <span>❤️ 27 curtidas</span>
+                            <span>💬 21 respostas</span>
+                            <span>👁️ 176 visualizações</span>
+                        </div>
+                        
+                        <input type="checkbox" id="post-4" class="post-toggle">
+                        <label for="post-4" class="expand-btn">Ver discussão completa</label>
+                        <div class="post-content">
+                            <p>Mas 'O Escudo Arverno' também é fantástico. E vocês, qual preferem?</p>
+                            <div class="post-actions">
+                                <button class="like-btn">❤️ Curtir</button>
+                                <button class="reply-btn">💬 Responder</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post Geral -->
+                    <div class="forum-post geral">
+                        <div class="post-header">
+                            <h3>Dicas para conservar HQs antigas</h3>
+                            <span class="post-category">Geral</span>
+                        </div>
+                        <p class="post-preview">Pessoal, tenho algumas HQs antigas do Asterix e Tintim que estão começando a amarelar...</p>
+                        <div class="post-stats">
+                            <span>👤 ColecionadorVintage</span>
+                            <span>❤️ 19 curtidas</span>
+                            <span>💬 23 respostas</span>
+                            <span>👁️ 134 visualizações</span>
+                        </div>
+                        
+                        <input type="checkbox" id="post-5" class="post-toggle">
+                        <label for="post-5" class="expand-btn">Ver discussão completa</label>
+                        <div class="post-content">
+                            <p>Alguém tem dicas de como conservar melhor? Que tipo de proteção vocês usam?</p>
+                            <div class="post-actions">
+                                <button class="like-btn">❤️ Curtir</button>
+                                <button class="reply-btn">💬 Responder</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrinho Tab -->
+        <section id="carrinho" class="tab-content">
+            <div class="container">
+                <h2>Carrinho de Compras</h2>
+                
+                <div class="cart-content">
+                    <div class="cart-empty" id="cart-empty">
+                        <p>🛒 Seu carrinho está vazio</p>
+                        <p>Adicione alguns quadrinhos incríveis!</p>
+                        <a href="#catalogo" class="btn-catalog">Ver Catálogo</a>
+                    </div>
+                    
+                    <div class="cart-items" id="cart-items">
+                        <!-- Itens serão adicionados via JavaScript -->
+                    </div>
+                    
+                    <div class="cart-summary" id="cart-summary">
+                        <div class="summary-row">
+                            <span>Subtotal:</span>
+                            <span id="subtotal">R$ 0,00</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Frete:</span>
+                            <span id="shipping">Grátis</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total:</span>
+                            <span id="total">R$ 0,00</span>
+                        </div>
+                        <button class="btn-checkout">Finalizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript mínimo para carrinho -->
+    <script>
+        let cart = [];
+        
+        function addToCart(title, price) {
+            const existingItem = cart.find(item => item.title === title);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({ title, price, quantity: 1 });
+            }
+            updateCartDisplay();
+            updateCartCount();
+        }
+        
+        function removeFromCart(title) {
+            cart = cart.filter(item => item.title !== title);
+            updateCartDisplay();
+            updateCartCount();
+        }
+        
+        function updateQuantity(title, newQuantity) {
+            const item = cart.find(item => item.title === title);
+            if (item) {
+                if (newQuantity <= 0) {
+                    removeFromCart(title);
+                } else {
+                    item.quantity = newQuantity;
+                }
+            }
+            updateCartDisplay();
+            updateCartCount();
+        }
+        
+        function updateCartCount() {
+            const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.querySelector('.cart-count').textContent = count;
+        }
+        
+        function updateCartDisplay() {
+            const cartItems = document.getElementById('cart-items');
+            const cartEmpty = document.getElementById('cart-empty');
+            const cartSummary = document.getElementById('cart-summary');
+            
+            if (cart.length === 0) {
+                cartEmpty.style.display = 'block';
+                cartItems.style.display = 'none';
+                cartSummary.style.display = 'none';
+            } else {
+                cartEmpty.style.display = 'none';
+                cartItems.style.display = 'block';
+                cartSummary.style.display = 'block';
+                
+                cartItems.innerHTML = cart.map(item => `
+                    <div class="cart-item">
+                        <div class="item-info">
+                            <h4>${item.title}</h4>
+                            <p class="item-price">R$ ${item.price.toFixed(2).replace('.', ',')}</p>
+                        </div>
+                        <div class="item-controls">
+                            <button onclick="updateQuantity('${item.title}', ${item.quantity - 1})">-</button>
+                            <span class="quantity">${item.quantity}</span>
+                            <button onclick="updateQuantity('${item.title}', ${item.quantity + 1})">+</button>
+                            <button onclick="removeFromCart('${item.title}')" class="remove-btn">🗑️</button>
+                        </div>
+                        <div class="item-total">
+                            R$ ${(item.price * item.quantity).toFixed(2).replace('.', ',')}
+                        </div>
+                    </div>
+                `).join('');
+                
+                const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+                document.getElementById('subtotal').textContent = `R$ ${subtotal.toFixed(2).replace('.', ',')}`;
+                document.getElementById('total').textContent = `R$ ${subtotal.toFixed(2).replace('.', ',')}`;
+            }
+        }
+    </script>
+</body>
+</html>
