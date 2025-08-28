@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de cadastro escolar</title>
+
+    <link rel="stylesheet" href="/Aula_5/Projeto/style.css">
+</head>
+<body>
+
+    <div class="container">
+<h1>🏫 Sistema de cadastro escolar</h1>
+<p>Bem-vindos ao sistema de cadastro da escola virtual!</p>
+
+<h3>📋 Menu de cadastros</h3>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/aluno.html"><button>👨‍🎓 Cadastrar aluno</button></a>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/cursos.html"><button>📖 Cadastrar curso</button></a>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/livro.html"><button>📚 Cadastrar livro</button></a>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/professor.html"><button>👨‍🏫 Cadastrar professor</button></a>
+
+<div class="formulario">
+    <form action="#" method="post"> 
+<h3>👨‍🎓 Cadastro de Aluno</h3>
+
+<label for="nome">Nome completo:</label><br>
+<input type="text" name="nome" size="50px" required><br><br>
+
+<label for="data">Data de nascimeto</label><br>
+<input type="date" name="data"><br><br>
+
+<label for="email">Email:</label><br>
+<input type="text" name="email" size="40px"><br><br>
+
+<label for="telefone">Telefone:</label><br>
+<input type="number" name="telefone" size="20px"><br><br>
+
+<label for="serie">Série/ano:</label><br>
+<select name="serie" id="serie">
+    <option value="">selecione a série</option>
+<option value="1°EF">1°EF</option>
+<option value="2°EF">2°EF</option>
+<option value="3°EF">3°EF</option>
+<option value="3°EF">4°EF</option>
+<option value="3°EF">5°EF</option>
+</select><br><br>
+
+<label for="periodo">Período:</label><br>
+<label><input type="radio" name="periodo" value="manha"> Manhã</label><br>
+<label><input type="radio" name="periodo" value="tarde"> Tarde</label><br>
+<label><input type="radio" name="periodo" value="manha"> Noite</label><br><br>
+
+<label for="atividades">Atividades extras:</label><br>
+<label for="esportes">
+    <input type="checkbox"> Esportes
+</label><br>
+<label for="musica">
+    <input type="checkbox"> Música
+</label><br>
+<label for="teatro">
+    <input type="checkbox"> Teatro
+</label><br>
+<label for="informatica">
+    <input type="checkbox"> Informática
+</label><br><br>
+
+<label for="observacoes">Observações:</label><br>
+<textarea name="observacoes" id="observacoes"></textarea><br><br>
+
+<button type="submit">Cadastrar Aluno</button>
+<button type="reset">Limpar Dados</button>
+</form>
+</div>
+    </div>
+</body>
+</html>

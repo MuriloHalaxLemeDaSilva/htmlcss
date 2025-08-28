@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de cadastro escolar</title>
+
+    <link rel="stylesheet" href="/Aula_5/Projeto/style.css">
+</head>
+<body>
+
+    <div class="container">
+<h1>🏫 Sistema de cadastro escolar</h1>
+<p>Bem-vindos ao sistema de cadastro da escola virtual!</p>
+
+<h3>📋 Menu de cadastros</h3>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/aluno.html"><button>👨‍🎓 Cadastrar aluno</button></a>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/cursos.html"><button>📖 Cadastrar curso</button></a>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/livro.html"><button>📚 Cadastrar livro</button></a>
+<a href="http://127.0.0.1:5501/Aula_5/Projeto/professor.html"><button>👨‍🏫 Cadastrar professor</button></a>
+
+
+<div class="formulario">
+    <form action="#" method="post"> 
+<h3>📖 Cadastro de curso</h3>
+
+<label for="nomecurso">Nome do curso:</label><br>
+<input type="text" name="nome" size="50px" required><br><br>
+
+<label for="codigo">Código do curso:</label><br>
+<input type="number" name="cpf"><br><br>
+
+
+<label for="categoria">Categoria:</label><br>
+<select name="serie" id="serie">
+    <option value="">selecione a categoria</option>
+<option value="">Ciências exatas</option>
+<option value="">Ciências humanas</option>
+<option value="">Ciências biológicas</option>
+<option value="">Linguagens</option>
+<option value="">Artes</option>
+</select><br><br>
+
+<label for="duracao">Duração (meses):</label><br>
+<input type="text" name="duracao" size="5px"><br><br>
+
+<label for="modalidade">Modalidade:</label><br>
+<label><input type="radio" name="periodo" value="integral"> Presencial</label><br>
+<label><input type="radio" name="periodo" value="paricial"> Online</label><br>
+<label><input type="radio" name="periodo" value="integral"> Híbrido</label><br><br>
+
+
+<label for="requisitos">Pré-requisitos:</label><br>
+<label for="">
+    <input type="checkbox"> Ensino-médio completo
+</label><br>
+<label for="">
+    <input type="checkbox"> Curso Básico
+</label><br>
+<label for="">
+    <input type="checkbox"> Experiência Prévia
+</label><br><br>
+
+<label for="descricao">Descrição do curso:</label><br>
+<textarea name="descricao" id="descricao"></textarea><br><br>
+
+<button type="submit">Cadastrar curso</button>
+<button type="reset">Limpar Dados</button>
+
+
+
+</form>
+</div>
+    </div>
+</body>
+</html>

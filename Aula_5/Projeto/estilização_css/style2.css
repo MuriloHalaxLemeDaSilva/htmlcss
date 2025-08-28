@@ -1,0 +1,45 @@
+body{
+background-color: rgb(233, 233, 233);
+font-family: Arial;
+}
+
+.bloco1{
+    background-color: rgb(255, 255, 200);
+    padding: 20px;
+    margin: 20px;
+font-size: x-small;
+border-radius: 5px;
+border: 3px solid #060606;
+
+}
+
+.bloco2{
+    background-color: #65a5e1;
+    padding: 20px;
+    margin: 20px;
+    font-size: x-small;
+    border-radius: 5px;
+border: 3px solid #fff700;
+color: whitesmoke;
+}
+
+
+.bloco3{
+    background-color: rgb(171, 203, 255);
+    padding: 20px;
+    margin: 20px;
+    font-size: x-small;
+border-radius: 5px;
+border: 3px solid #0219af;
+color: #01127c;
+}
+
+.bloco4{
+    background-color: rgb(249, 249, 249);
+    padding: 20px;
+    margin: 20px;
+    font-size: x-small;
+    border-radius: 5px;
+border: 2px solid #ae0202;
+color: #ae0202;
+}
