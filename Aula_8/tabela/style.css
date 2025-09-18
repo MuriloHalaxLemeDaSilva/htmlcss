@@ -1,0 +1,340 @@
+.table1{
+           border-collapse: collapse;  
+        }
+.table1 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(93, 93, 93);
+}
+.table1 td{
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+.table2{
+           border-collapse: collapse;
+        }
+.table2 th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table2 td{
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table3{
+           border-collapse: collapse;
+}
+
+.table3 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(83, 83, 83);
+}
+.table3 td{
+    color: rgb(0, 60, 255);
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+
+
+.table4{
+           border-collapse: collapse;
+        }
+.table4 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(83, 83, 83);
+}
+.table4 td{
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table5{
+           border-collapse: collapse;
+        }
+.table5 th{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(83, 83, 83);
+}
+.table5 td{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+border: 1px solid black;
+}
+
+.table6{
+           border-collapse: collapse;
+        }
+.table6 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(83, 83, 83);
+}
+.table6 td{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table7{
+           border-collapse: collapse;
+        }
+.table7 th{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(83, 83, 83);
+}
+.table7 td{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table8{
+           border-collapse: collapse;
+        }
+.table8 th{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 3px solid rgb(0, 0, 0);
+}
+.table8 td{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+border: 2px solid black;
+}
+
+
+.table9{
+           border-collapse: collapse;
+        }
+.table9 th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 23, 23);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table9 td{
+    padding: 5px;
+border: 1px solid black;
+}
+
+.table10{
+           border-collapse: collapse;
+        }
+.table10 th{
+    padding: 17px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(93, 93, 93);
+}
+.table10 td{
+    padding: 17px;
+border: 1px solid black;
+}
+
+.table11{
+           border-collapse: collapse;
+        }
+.table11 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table11 td{
+    font-style: italic;
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+.table12{
+           border-collapse: collapse;
+        }
+.table12 th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table12 td{
+    font-weight: bold;
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table13{
+           border-collapse: collapse;
+        }
+.table13 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table13 td{
+    
+    padding: 5px;
+border: 1px solid black;
+}
+.table13 tr:nth-child(2){
+    background-color: rgb(52, 206, 75);
+}
+
+.table14{
+           border-collapse: collapse;
+        }
+.table14 th{
+    color: green;
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table14 td{
+    color: green;
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table15{
+           border-collapse: collapse;
+        }
+.table15 th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table15 td{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table16{
+           border-collapse: collapse;
+        }
+.table16 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table16 td{
+    
+    padding: 5px;
+border: 1px solid black;
+}
+.table16 tr:nth-child(2){
+    background-color: rgb(253, 245, 168);
+}
+
+
+.table17{
+           border-collapse: collapse;
+        }
+.table17 th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table17 td{
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table18{
+           border-collapse: collapse;
+        }
+.table18 th{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table18 td{
+    text-transform: uppercase;
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table19{
+           border-collapse: collapse;
+        }
+.table19 th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+padding: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.table19 td{
+    padding: 5px;
+border: 1px solid black;
+}
+
+
+
+.table20{
+           border-collapse: collapse;
+        }
+.table20 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 152, 216);
+padding: 5px;
+border: 2px solid rgb(0, 0, 0);
+}
+.table20 td{
+    background-color: rgb(153, 197, 255);
+    padding: 5px;
+border: 2px solid rgb(0, 0, 0);
+}
