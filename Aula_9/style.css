@@ -1,0 +1,70 @@
+.table1{
+           border-collapse: collapse;  
+        }
+.table1 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 212, 41);
+padding: 5px;
+border: 1px solid rgb(93, 93, 93);
+}
+.table1 td{
+    padding: 5px;
+border: 1px solid rgb(30, 29, 29);
+background-color: rgb(255, 251, 179);
+text-align: center;
+}
+.table1 td:nth-child(1){
+    background-color: rgb(254, 241, 123);
+}
+
+
+
+.table2{
+           border-collapse: collapse;  
+        }
+.table2 th{
+    background-color: rgb(228, 79, 46);
+    color: rgb(0, 0, 0);
+padding: 5px;
+border: 1px solid rgb(93, 93, 93);
+}
+.table2 td{
+    padding: 5px;
+border: 1px solid rgb(30, 29, 29);
+}
+.table2 td:nth-child(2){
+    background-color: rgb(164, 201, 243);
+    color: rgb(19, 19, 152);
+    font-weight: bold;
+}
+
+.table2 tr:nth-child(2){
+    background-color: rgb(249, 228, 93);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.table3{
+           border-collapse: collapse;  
+        }
+.table3 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(107, 160, 239);
+padding: 5px;
+border: 2px solid rgb(0, 0, 0);
+}
+.table3 td{
+    padding: 5px;
+border: 2px solid rgb(30, 29, 29);
+background-color: rgb(179, 222, 255);
+text-align: center;
+}
