@@ -1,18 +1,83 @@
 body {
     height: 100vh;
-    margin: 0px;
+    background-color: black;
 }
 
 
-.container {
+.containerp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerv {
+    display: flex;
+    justify-content:start;
+    align-items: start;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containervd {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.containera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerabc {
     display: flex;
     justify-content: start;
     align-items: start;
-    height: 100%;
+    flex-direction: column;
+}
+
+.containerdef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerghi {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.containerc6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerc6a {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.containerc6v {
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 
-.caixa {
+
+.caixapreta {
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -23,24 +88,113 @@ body {
     color: white;
 }
 
-.caixa2 {
+.caixavermelha {
     margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(234, 7, 7);
     height: 200px;
     width: 200px;
     color: white;
 }
 
-.caixa3 {
+.caixaroxa {
     margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(140, 25, 165);
     height: 200px;
     width: 200px;
     color: white;
+}
+
+.caixaverde {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 236, 0);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixaazul {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(115, 169, 255);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixaabc {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(11, 92, 221);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixadef {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 92, 221);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixaghi {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 92, 221);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixac6 {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 92, 221);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixac6a {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 230, 0);
+    height: 200px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.caixac6v {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    width: 200px;
+    color: rgb(255, 255, 255);
 }
