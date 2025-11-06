@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+}
+
+
+.caixa {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixa2 {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caixa3 {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
