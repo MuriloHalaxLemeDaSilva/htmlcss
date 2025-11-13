@@ -1,0 +1,25 @@
+body {
+height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row-reverse;
+}
+
+
+.caixa {
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, rgb(97, 156, 85), rgb(141, 194, 108));
+    height: 200px;
+    width: 200px;
+    color: white;
+}

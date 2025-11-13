@@ -1,0 +1,25 @@
+body {
+height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.caixa {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: linear-gradient(to bottom, rgb(0, 217, 255), rgb(172, 249, 125));
+    height: 300px;
+    width: 300px;
+    color: white;
+}
