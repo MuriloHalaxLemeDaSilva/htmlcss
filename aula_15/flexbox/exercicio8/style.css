@@ -1,24 +1,16 @@
-body {
-height: 100vh;
-}
-
-
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    width: 100%;
 }
 
-
 .caixa {
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    background-image: linear-gradient(to bottom, rgb(255, 106, 0), rgb(172, 249, 125));
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(to bottom, rgb(35, 33, 114), rgb(117, 230, 46));
     color: white;
 }
